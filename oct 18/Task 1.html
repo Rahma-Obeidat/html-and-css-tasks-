@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 2</title>
+</head>
+<body>
+    <form >
+        <fieldset>
+            <legend>RegForm</legend><br>
+            <label for="name"> Name  </label>&emsp;
+            <input type="text" id="name" name="name" placeholder="Enter Name Here" ><br><br>
+            <label for="pass"> Password</label>&emsp;
+            <input type="password" id="pass" name="pass" placeholder="Enter PAssword Here" ><br><br>
+            <label for="email"> Email  </label>&emsp;
+            <input type="email" id="email" name="email" placeholder="Enter Email Here" ><br><br>
+
+            <label for="email"> Date  </label>&emsp;
+            <input type="date" id="date" name="date" placeholder="dd-mm-yyyy" ><br><br>
+
+            <label for="phone"> PhoneNo  </label>&emsp;
+            <input type="number" id="phone" name="phone"  ><br><br>
+
+            <label for="file"> SelectFile  </label>&emsp;
+            <input type="file" id="file" name="file" multiple ><br><br>
+            <label> Gender</label>&emsp;
+            <input type="radio" id="Male" name="gender" value="Male">
+              <label for="male">Male</label>
+
+            <input type="radio" id="Female" name="gender" value="Female">
+              <label for="female">Female</label><br><br>
+
+            <label>Language</label>
+            <input type="checkbox" id="hindi" name="hindi" value="hindi">
+            <label for="hindi"> Hindi</label>
+            <input type="checkbox" id="English" name="english" value="english">
+            <label for="english"> English</label><br><br>
+
+            <label>Course</label>&emsp;
+            <select name="course" id="course">
+                <option value="PHP">PHP</option>
+                <option value="Java">Java</option>
+                <option value="C++">C++</option>
+                <option value="Android">Android</option>
+            </select>
+            <br><br>
+
+            <label for="comment"> Comment  </label>&emsp;
+            
+            <textarea id="comment" name="comment"  placeholder="write here" rows="4" cols="30" >
+                </textarea><br><br>
+
+                <button type="button">RegisterNow</button>
+                <button type=reset">Refresh</button>
+        </fieldset>
+    </form>
+</body>
+</html>
