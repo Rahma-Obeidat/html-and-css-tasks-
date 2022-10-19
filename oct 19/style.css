@@ -1,0 +1,15 @@
+h3{
+    color: blue;
+    background-color:cyan;
+}
+#color_blue{
+    color: blue;
+}
+table, th, td {
+    border:1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+  }
+  div form{
+margin: 100px 200px;
+  }
