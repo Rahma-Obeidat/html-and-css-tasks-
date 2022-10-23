@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .normal{
+            background-color: beige;
+            display: inline-block;
+            width: 220px;
+            height: 140px;
+            margin: 6px 6px 6px 10px;
+        }
+        #scroll-div{
+            overflow: scroll;
+            overflow-x: hidden;
+            height: 50px;
+            width: 100%;
+            border-top: 3px solid black;
+            border-bottom: 3px solid black;
+            margin: 9px 5px 9px 5px;
+
+        }
+    </style>
+</head>
+<body style="background-color: orchid;">
+    <h2>Floating Article</h2>
+    <div >
+
+        <div>
+        <p class="normal">The “cat pattern,” established very early in the evolution of modern mammals, 
+            was a successful one: early cats were already typical in form at a time</p>
+
+
+        <p class="normal">The “cat pattern,” established very early in the evolution of modern mammals,
+             was a successful one: early cats were already typical in form at a time</p>
+
+             <p class="normal">The “cat pattern,” established very early in the evolution of modern mammals,
+                was a successful one: early cats were already typical in form at a time</p>
+        </div>
+
+        <div>
+            <p id="scroll-div">The “cat pattern,” established very early in the evolution of modern mammals,
+                was a successful one: early cats were already typical in form at a time
+                The “cat pattern,” established very early in the evolution of modern mammals,
+                was a successful one: early cats were already typical in form at a time
+                The “cat pattern,” established very early in the evolution of modern mammals,
+                was a successful one: early cats were already typical in form at a time</p>
+        </div>
+
+        <div>
+            <p class="normal">The “cat pattern,” established very early in the evolution of modern mammals, 
+                was a successful one: early cats were already typical in form at a time</p>
+    
+    
+            <p class="normal">The “cat pattern,” established very early in the evolution of modern mammals,
+                 was a successful one: early cats were already typical in form at a time</p>
+    
+               
+        </div>
+    </div>
+</body>
+</html>

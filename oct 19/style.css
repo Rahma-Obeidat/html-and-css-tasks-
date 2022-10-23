@@ -1,6 +1,6 @@
 h3{
     color: blue;
-    background-color:cyan;
+    background-color:rgb(174, 214, 254);
 }
 #color_blue{
     color: blue;
@@ -11,5 +11,5 @@ table, th, td {
     padding: 5px;
   }
   div form{
-margin: 100px 200px;
+margin: 00px 200px;
   }
