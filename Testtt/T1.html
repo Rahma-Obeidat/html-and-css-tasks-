@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        .grid-container {
+  display: grid;
+  grid-template-columns: 50% auto 30%  ;
+  grid-template-rows: auto auto auto;
+  background-color: #b3cfe6;
+  padding: 10px;
+  row-gap:20px ;
+  column-gap: 10px; 
+}
+.inline_grid-container {
+  display: inline-grid;
+  grid-template-columns: auto auto auto auto;
+  background-color: #b3cfe6;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+    </style>
+</head>
+<body>
+    <h1>display: grid</h1>
+
+<p>Use display: grid; to make a block-level grid container:</p>
+
+<div class="grid-container">
+  <div class="grid-item">Wesam</div>
+  <div class="grid-item">Ayah</div>
+  <div class="grid-item">Roaa</div>  
+  <div class="grid-item">Rahma</div>
+  <div class="grid-item">Mayyas</div>
+  <div class="grid-item">Haitham</div> 
+   <button class="grid-item" type="submit">Submit</button>
+  
+</div>
+
+
+<h1>display: inline-grid</h1>
+
+<p>Use display: inline-grid;</p>
+
+<div class="inline_grid-container">
+  <div class="grid-item">Wesam</div>
+  <div class="grid-item">Ayah</div>
+  <div class="grid-item">Roaa</div>  
+  <div class="grid-item">Rahma</div>
+  <div class="grid-item">Mayyas</div>
+  <div class="grid-item">Haitham</div>
+  <div class="grid-item">Haitham</div>  
+  
+</div>
+
+</body>
+</html>
