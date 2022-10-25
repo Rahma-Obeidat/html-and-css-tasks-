@@ -1,0 +1,33 @@
+
+div{
+    height: 60%;
+    background-color: rgb(16, 129, 228);
+    margin-top: 5px;
+}
+    
+@media only screen and (min-device-width: 0px) and (max-device-width: 480px){
+    div{
+        float: none;
+        margin: 40px;
+        background-color: aqua;
+width: 100px;
+padding: 40px;
+
+    }
+
+
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 768px){
+    div{
+        margin: 40px;
+        background-color: brown;
+        margin-bottom: 50px;
+    }
+    }
+
+
+
+
+
+
